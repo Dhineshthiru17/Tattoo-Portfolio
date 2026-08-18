@@ -1,20 +1,43 @@
+import { useState } from 'react'
+
+const links = [
+  { href: '#home', label: 'Home' },
+  { href: '#styles', label: 'Styles' },
+  { href: '#about', label: 'About' },
+  { href: '#contact', label: 'Contact' },
+]
+
 function Navbar() {
+  const [open, setOpen] = useState(false)
+
   return (
-    <nav className="w-full px-6 py-5 flex items-center justify-between">
+    <header className="site-header">
+      <nav className="navbar" aria-label="Main navigation">
+        <a href="#home" className="brand" onClick={() => setOpen(false)}>
+          ASHOK TATTOO
+        </a>
 
-      <div className="text-xl font-bold tracking-wider">
-        ASHOK TATTOO
-      </div>
+        <button
+          className="menu-button"
+          type="button"
+          aria-label="Toggle menu"
+          aria-expanded={open}
+          onClick={() => setOpen((current) => !current)}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
 
-      <div className="flex gap-8">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#styles">Styles</a>
-        <a href="#contact">Contact</a>
-      </div>
-
-    </nav>
+        <div className={`nav-links ${open ? 'is-open' : ''}`}>
+          {links.map((link) => (
+            <a key={link.href} href={link.href} onClick={() => setOpen(false)}>
+              {link.label}
+            </a>
+          ))}
+        </div>
+      </nav>
+    </header>
   )
 }
 
