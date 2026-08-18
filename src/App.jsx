@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar'
-import tattooNeedle from './assets/tattoo-needle.jfif'
+import modernInkHero from './assets/modern-ink-hero.svg'
 
 const styles = ['Fine line', 'Black & grey', 'Lettering', 'Minimal', 'Floral', 'Custom flash']
 
@@ -12,8 +12,8 @@ function App() {
         <section className="hero section" id="home">
           <img
             className="hero-backdrop"
-            src={tattooNeedle}
-            alt="Tattoo needle held in front of a ring light"
+            src={modernInkHero}
+            alt="Modern abstract tattoo studio background"
           />
           <div className="hero-copy">
             <p className="eyebrow">Custom tattoos in a clean private studio</p>
@@ -29,6 +29,11 @@ function App() {
               <a className="button ghost" href="#styles">
                 View Styles
               </a>
+            </div>
+            <div className="hero-meta" aria-label="Studio highlights">
+              <span>Fine-line focused</span>
+              <span>Private sessions</span>
+              <span>Custom concepts</span>
             </div>
           </div>
         </section>

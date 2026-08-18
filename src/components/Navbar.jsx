@@ -14,7 +14,7 @@ function Navbar() {
     <header className="site-header">
       <nav className="navbar" aria-label="Main navigation">
         <a href="#home" className="brand" onClick={() => setOpen(false)}>
-          ASHOK TATTOO
+          BLOOD AND INK
         </a>
 
         <button

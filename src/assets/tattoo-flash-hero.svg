@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Tattoo flash hero background</title>
+  <desc id="desc">Dark tattoo flash composition with line art roses, dagger, moon, and ink details.</desc>
+  <defs>
+    <radialGradient id="glow" cx="62%" cy="43%" r="52%">
+      <stop offset="0%" stop-color="#d93a4a" stop-opacity="0.55"/>
+      <stop offset="42%" stop-color="#6b1723" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#08080a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="38%" stop-color="#9ca3af"/>
+      <stop offset="100%" stop-color="#f4d27a"/>
+    </linearGradient>
+    <pattern id="grain" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="13" r="1" fill="#ffffff" opacity="0.08"/>
+      <circle cx="42" cy="31" r="1.2" fill="#ffffff" opacity="0.05"/>
+      <circle cx="69" cy="58" r="1" fill="#d93a4a" opacity="0.12"/>
+      <path d="M0 79H80" stroke="#ffffff" stroke-opacity="0.025"/>
+    </pattern>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="18" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#08080a"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <rect width="1600" height="1000" fill="url(#grain)"/>
+
+  <g opacity="0.14" stroke="#ffffff" stroke-width="2" fill="none">
+    <path d="M1290 106c-170 87-260 215-270 383-12 203 100 326 292 393"/>
+    <path d="M1360 145c-124 77-192 190-201 337-10 166 70 278 218 346"/>
+    <path d="M1164 126c-65 72-103 158-114 259"/>
+  </g>
+
+  <g transform="translate(965 135)" filter="url(#softShadow)">
+    <path d="M252 0c-96 31-166 121-166 227 0 132 107 239 239 239 77 0 145-36 189-92-25 9-52 14-80 14-132 0-239-107-239-239 0-56 19-108 51-149z" fill="#f4d27a" opacity="0.9"/>
+    <path d="M252 0c-96 31-166 121-166 227 0 132 107 239 239 239 77 0 145-36 189-92-25 9-52 14-80 14-132 0-239-107-239-239 0-56 19-108 51-149z" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="4"/>
+  </g>
+
+  <g transform="translate(730 210) rotate(16)" filter="url(#softShadow)">
+    <path d="M122 33h48l24 414-48 70-48-70z" fill="url(#steel)" opacity="0.92"/>
+    <path d="M122 33h48l24 414-48 70-48-70z" fill="none" stroke="#ffffff" stroke-opacity="0.7" stroke-width="5"/>
+    <path d="M146 76v371" stroke="#08080a" stroke-opacity="0.42" stroke-width="3"/>
+    <path d="M53 480h186c18 0 33 15 33 33v13H20v-13c0-18 15-33 33-33z" fill="#211319" stroke="#f4d27a" stroke-width="5"/>
+    <path d="M86 526h120v58c0 24-20 44-44 44h-32c-24 0-44-20-44-44z" fill="#d93a4a" stroke="#ffffff" stroke-opacity="0.46" stroke-width="4"/>
+    <path d="M92 548c34 18 72 18 108 0" stroke="#ffffff" stroke-opacity="0.32" stroke-width="4"/>
+  </g>
+
+  <g transform="translate(1035 600)" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#softShadow)">
+    <path d="M164 25c78 18 119 96 83 164-31 59-105 82-169 53-67-30-96-104-65-164 25-49 83-74 151-53z" fill="#2a1118" stroke="#f4d27a" stroke-width="5"/>
+    <path d="M139 55c42 9 68 52 49 91-18 36-63 51-101 34-39-18-57-61-39-98 16-31 51-43 91-27z" stroke="#ffffff" stroke-opacity="0.46" stroke-width="4"/>
+    <path d="M97 90c34-6 71 20 74 56M58 131c31 36 87 47 132 17M206 93c22 35 15 84-16 113" stroke="#ffffff" stroke-opacity="0.34" stroke-width="4"/>
+    <path d="M8 232c98-10 152-60 176-142" stroke="#2fd0a1" stroke-opacity="0.6" stroke-width="7"/>
+    <path d="M58 210c-15-49 21-87 85-83M126 260c-7-49 32-80 89-69" stroke="#2fd0a1" stroke-opacity="0.5" stroke-width="5"/>
+  </g>
+
+  <g transform="translate(1110 235) scale(0.8)" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#softShadow)">
+    <path d="M164 25c78 18 119 96 83 164-31 59-105 82-169 53-67-30-96-104-65-164 25-49 83-74 151-53z" fill="#1f1015" stroke="#d93a4a" stroke-width="6"/>
+    <path d="M139 55c42 9 68 52 49 91-18 36-63 51-101 34-39-18-57-61-39-98 16-31 51-43 91-27z" stroke="#ffffff" stroke-opacity="0.42" stroke-width="4"/>
+    <path d="M97 90c34-6 71 20 74 56M58 131c31 36 87 47 132 17M206 93c22 35 15 84-16 113" stroke="#ffffff" stroke-opacity="0.3" stroke-width="4"/>
+  </g>
+
+  <g opacity="0.72">
+    <path d="M1290 550l20 45 47 6-34 32 9 47-42-23-42 23 9-47-34-32 47-6z" fill="#f4d27a"/>
+    <path d="M1414 420l12 27 29 4-21 20 5 29-25-14-25 14 5-29-21-20 29-4z" fill="#ffffff"/>
+    <path d="M1015 122l12 27 29 4-21 20 5 29-25-14-25 14 5-29-21-20 29-4z" fill="#d93a4a"/>
+  </g>
+
+  <g opacity="0.2" stroke="#ffffff" stroke-width="3" fill="none">
+    <path d="M115 798c152-92 334-122 548-89"/>
+    <path d="M88 855c181-84 386-102 613-54"/>
+    <path d="M118 913c143-46 314-51 513-15"/>
+  </g>
+</svg>
