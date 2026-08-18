@@ -95,8 +95,8 @@ function App() {
           </div>
 
           <div className="contact-box">
-            <a href="tel:+919876543210">+91 98765 43210</a>
-            <a href="mailto:hello@ashoktattoo.com">hello@ashoktattoo.com</a>
+            <a href="tel:+919360734516">+91 93607 34516</a>
+            <a href="mailto:thirudhinesh1@gmail.com">thirudhinesh1@gmail.com</a>
             <span>Open Tue-Sun, 11:00 AM - 8:00 PM</span>
           </div>
         </section>
