@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1050" role="img" aria-labelledby="title desc">
+  <title id="title">Modern ink studio background</title>
+  <desc id="desc">Abstract modern tattoo studio artwork with flowing ink lines, needle silhouette, and red light accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060607"/>
+      <stop offset="46%" stop-color="#111015"/>
+      <stop offset="100%" stop-color="#2a0d13"/>
+    </linearGradient>
+    <linearGradient id="redGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3d55" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ff3d55" stop-opacity="0.74"/>
+      <stop offset="100%" stop-color="#ffb199" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="52%" stop-color="#8e939d"/>
+      <stop offset="100%" stop-color="#ff6b78"/>
+    </linearGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0v72" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="blurLine" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#000000" flood-opacity="0.56"/>
+    </filter>
+  </defs>
+
+  <rect width="1800" height="1050" fill="url(#bg)"/>
+  <rect width="1800" height="1050" fill="url(#grid)"/>
+
+  <g opacity="0.9">
+    <path d="M698 0L1800 0L1800 1050L1068 1050Z" fill="#ffffff" opacity="0.035"/>
+    <path d="M1116 0L1800 0L1800 1050L1472 1050Z" fill="#ff3d55" opacity="0.08"/>
+    <path d="M1230 0L1350 0L740 1050L620 1050Z" fill="#ffffff" opacity="0.05"/>
+  </g>
+
+  <g filter="url(#blurLine)" opacity="0.72">
+    <path d="M589 775C782 607 948 623 1106 487C1260 355 1287 190 1473 108" fill="none" stroke="url(#redGlow)" stroke-width="28"/>
+    <path d="M702 891C915 708 1094 723 1267 571C1432 426 1485 242 1706 162" fill="none" stroke="#ff3d55" stroke-opacity="0.24" stroke-width="18"/>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M541 780C768 582 924 655 1097 473C1222 342 1281 180 1493 85" stroke="#ffffff" stroke-opacity="0.42" stroke-width="2.5"/>
+    <path d="M574 836C810 643 997 685 1158 524C1322 360 1395 224 1586 127" stroke="#ff6b78" stroke-opacity="0.74" stroke-width="4"/>
+    <path d="M661 911C861 741 1088 760 1281 580C1440 431 1534 270 1736 197" stroke="#ffffff" stroke-opacity="0.3" stroke-width="2"/>
+    <path d="M762 222C905 280 998 374 1041 505C1084 638 1158 733 1265 789" stroke="#ffffff" stroke-opacity="0.13" stroke-width="2"/>
+    <path d="M808 152C996 245 1112 368 1154 520C1188 640 1266 742 1390 827" stroke="#ffffff" stroke-opacity="0.1" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(1058 228) rotate(-18)" filter="url(#shadow)">
+    <rect x="240" y="180" width="70" height="425" rx="35" fill="#0c0c10" stroke="#ffffff" stroke-opacity="0.16" stroke-width="3"/>
+    <rect x="256" y="140" width="38" height="160" rx="19" fill="#1b1a20" stroke="#ff6b78" stroke-opacity="0.42" stroke-width="3"/>
+    <path d="M276 0L322 149H230Z" fill="url(#metal)"/>
+    <path d="M276 0L322 149H230Z" fill="none" stroke="#ffffff" stroke-opacity="0.62" stroke-width="4"/>
+    <path d="M276 25V145" stroke="#08080a" stroke-opacity="0.55" stroke-width="3"/>
+    <rect x="204" y="314" width="144" height="62" rx="31" fill="#ff3d55" opacity="0.82"/>
+    <rect x="204" y="314" width="144" height="62" rx="31" fill="none" stroke="#ffffff" stroke-opacity="0.26" stroke-width="3"/>
+    <path d="M215 480H337" stroke="#ffffff" stroke-opacity="0.18" stroke-width="10"/>
+  </g>
+
+  <g transform="translate(1098 603)" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.76">
+    <path d="M54 235C133 185 171 118 166 35C249 72 303 144 319 250C222 229 136 225 54 235Z" stroke="#ffffff" stroke-opacity="0.44" stroke-width="4"/>
+    <path d="M92 219C161 170 190 116 184 62C243 99 275 157 284 229" stroke="#ff6b78" stroke-opacity="0.66" stroke-width="5"/>
+    <path d="M119 210C150 173 166 127 166 69" stroke="#ffffff" stroke-opacity="0.34" stroke-width="3"/>
+    <path d="M204 79C180 138 184 188 217 229" stroke="#ffffff" stroke-opacity="0.22" stroke-width="3"/>
+  </g>
+
+  <g opacity="0.5">
+    <circle cx="1454" cy="724" r="3" fill="#ffffff"/>
+    <circle cx="1512" cy="676" r="2" fill="#ff6b78"/>
+    <circle cx="1327" cy="187" r="2.5" fill="#ffffff"/>
+    <circle cx="1604" cy="328" r="3" fill="#ff6b78"/>
+    <path d="M1498 797l12 26 29 4-21 20 5 29-25-14-25 14 5-29-21-20 29-4z" fill="#ffffff" opacity="0.36"/>
+    <path d="M1650 523l9 19 21 3-15 15 4 21-19-10-19 10 4-21-15-15 21-3z" fill="#ff6b78" opacity="0.56"/>
+  </g>
+</svg>
